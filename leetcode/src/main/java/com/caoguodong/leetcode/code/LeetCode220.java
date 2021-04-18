@@ -1,4 +1,4 @@
-package code;
+package com.caoguodong.leetcode.code;
 
 import com.caoguodong.leetcode.MainClass;
 import java.util.TreeSet;
