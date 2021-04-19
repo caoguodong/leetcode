@@ -1,6 +1,8 @@
 package com.caoguodong.leetcode;
 
-public class MainClass {
+import com.caoguodong.leetcode.print.Print;
+
+public class MainClass extends Print {
 
   protected static MainClass mainClass;
 
@@ -9,12 +11,4 @@ public class MainClass {
   }
 
   public void run() {}
-
-  public static void print(Object object) {
-    System.out.print(object);
-  }
-
-  public static void println(Object object) {
-    System.out.println(object);
-  }
 }
